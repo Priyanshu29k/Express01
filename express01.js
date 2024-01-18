@@ -1,4 +1,4 @@
-/*const express = require("express");
+const express = require("express");
 
 const app = express();
 app.get("/health-checkup", function(req, res) {
@@ -48,7 +48,7 @@ app.get("/heath-checkup", calculateRequests, function(req, res){
 
 });
 
-app.listen(3000); */
+app.listen(3000);
 
 const express = required("express");
 const app = express();
